@@ -1,0 +1,42 @@
+/*El * es el selector por default para cambiar el contenido a toda la pagina*/
+* {
+    list-style-type: none;
+    /*estilo de lista, con esto se saca los puntitos de las listas desordenadas*/
+    margin: 0;
+    /*Aca comprimimos los margenes*/
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: left;
+}
+
+/*
+ De esta manera modificamos a todas las etiquetas p
+ 
+p {
+    color: cadetblue;
+    text-align: center;
+}
+*/
+
+/* De la siguiente manera podemos modificar solamente una etiqueta p a traves de un id */
+#parrafoAzul{
+    color:blue;
+}
+
+/* De la siguiente manera le damos atributos a clases puestas en el HTML */
+.textoVerde{
+    color:darkgreen;
+}
+
+/* Selectores descendientes - clase padre e hijo */
+div h2{
+    color: coral;
+}
+    
