@@ -2,13 +2,14 @@
 * {
     list-style-type: none;
     /*estilo de lista, con esto se saca los puntitos de las listas desordenadas*/
-    margin: 0;
+    margin: 3px;
     /*Aca comprimimos los margenes*/
 }
 
 h1 {
     color: brown;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 h2 {
@@ -38,5 +39,26 @@ p {
 /* Selectores descendientes - clase padre e hijo */
 div h2{
     color: coral;
+}
+
+footer{
+    text-align: center;
+}
+
+#btn{
+    text-align: center;
+    background-color:bisque;
+    color: black;
+    border: 8px solid red;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    border-radius: 10%;
+    
+
+}
+
+#img{
+    border-radius: 35%;
 }
     
